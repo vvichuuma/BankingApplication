@@ -5,9 +5,11 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Customer c1 = new Customer("Vish", 2.14);
-        c1.addTransactions(34.21);
-        c1.testCode();
+       Branch branch = new Branch("Anna Nagar");
+       branch.addCustomer("David", 23.12);
+       branch.addCustomer("Mosh", 12.56);
+       branch.addCustomer("David", 10.1);
+       branch.testCode();
 
     }
 }

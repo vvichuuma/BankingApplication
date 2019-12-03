@@ -3,13 +3,16 @@ package com.codeWithMosh;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
 
-       Branch branch = new Branch("Anna Nagar");
-       branch.addCustomer("David", 23.12);
-       branch.addCustomer("Mosh", 12.56);
-       branch.addCustomer("David", 10.1);
-       branch.testCode();
+        //Bank Class:
+
+      Bank bank = new Bank("Bank of Baroda");
+      bank.addBranch("Mount prospect");
+      bank.addBranch("Arlington heights");
+      bank.addNewCustomer("Mount prospect", "Vish", 23.12);
+      bank.addNewCustomer("Des plaines" , "Hendry", 12.98);
+        bank.addNewCustomer("Mount prospect", "Vish", 53.12);
+      bank.testCode();
 
     }
 }

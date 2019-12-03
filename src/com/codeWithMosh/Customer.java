@@ -29,7 +29,7 @@ public class Customer {
     }
 
     public void testCode(){
-        System.out.println("Hey name is " + this.name + " and transactions " + this.transactions);
+        System.out.println("Customer Name: " + this.name + " and transactions are : " + this.transactions);
     }
 
 }

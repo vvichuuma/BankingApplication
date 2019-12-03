@@ -4,7 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //Bank Class:
+        // Welcome to the Banking Application:
+        //Where an user can create an account in a bank.
+        //Where an user can view his/her transactions.
+        //Where an Admin can view the list of branches in the bank and the customer transactions.
 
       Bank bank = new Bank("Bank of Baroda");
       bank.addBranch("Mount prospect");
